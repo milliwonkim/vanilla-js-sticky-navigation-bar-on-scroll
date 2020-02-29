@@ -1,9 +1,12 @@
 {
   "name": "vanilla-js-sticky-navigation-bar-on-scroll",
+  "homepage": "https://milliwonkim.github.io/vanilla-js-sticky-navigation-bar-on-scroll",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
